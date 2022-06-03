@@ -4,4 +4,100 @@
   font-family: 'OpenSans', 'BebasNeue' 'Times New Roman', Times, serif;
 }
 
+.header {
+  margin: 0 auto;
+  width: 1438px;
+  height: 769px;
+  background-image: url(./images/header.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.header__logo {
+  background-image: url(./images/projeco-logo.svg);
+  width: 101.86px;
+  height: 20.99px;
+  margin: 42px auto 0 auto;
+}
+
+.header__title {
+  margin: 0 0 0 0;
+  font-family: 'BebasNeue';
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 5.70937px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header__subtitle {
+  margin: 0;
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header__down {
+  margin: 0 0 71px 0;
+  font-family: 'OpenSans';
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  letter-spacing: 3.7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.nav {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.nav__logo {
+  margin: 24px 0 23px 251px;
+  width: 79.53px;
+  height: 18px;
+  background-image: url(./images/projeco-logo-black.svg);
+}
+
+.nav__list {
+  margin: 25px 0 24px 0;
+  width: 50%;
+  padding: 0 250px 0 48px;
+  box-sizing: border-box;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  padding: 0;
+  text-decoration: none;
+  font-family: 'OpenSans';
+  font-size: 12px;
+  line-height: 14px;
+  color: #48555B;
+  letter-spacing: 1.09091px;
+  text-transform: uppercase;
+}
+
+.link {
+  transition: opacity .5s;
+}
+
+.link:hover {
+  opacity: .6;
+}
+
+.link_active {
+  color: #00A4E5;
+}
