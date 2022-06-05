@@ -231,7 +231,7 @@
   color: #48555B;
 }
 
-.service__button {
+.button {
   width: 150px;
   height: 40px;
   font-family: 'OpenSans';
@@ -282,4 +282,28 @@
   line-height: 23px;
   letter-spacing: 0.1875px;
   color: #48555B;
+}
+
+.get-in-touch {
+  margin: 115px 0 0 0;
+  background-image: url(./images/get_in_touch.png);
+  width: 1440px;
+  height: 499px;
+  display: flex;
+  flex-direction: column;
+}
+
+.get-in-touch__title {
+  max-width: 350px;
+  margin: 120px auto 0 auto;
+  text-align: center;
+  font-family: 'OpenSans';
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #48555B;
+}
+
+.button_place_get-in-touch {
+  margin: 35px auto 0 auto;
 }
