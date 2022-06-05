@@ -232,6 +232,7 @@
 }
 
 .button {
+  margin: 0;
   width: 150px;
   height: 40px;
   font-family: 'OpenSans';
@@ -288,7 +289,7 @@
   margin: 115px 0 0 0;
   background-image: url(./images/get_in_touch.png);
   width: 1440px;
-  height: 499px;
+  height: 497px;
   display: flex;
   flex-direction: column;
 }
@@ -307,3 +308,52 @@
 .button_place_get-in-touch {
   margin: 35px auto 0 auto;
 }
+
+
+.newsletter {
+  background: #171819;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.newsletter__text {
+  margin: 35px 70px 35px 0;
+  font-family: 'OpenSans';
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}
+
+.newsletter__form {
+  margin: auto 0 auto 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.form__input {
+  display: inline-block;
+  margin: 0;
+  width: 250px;
+  padding: 11px 0 10px 16px;
+  box-sizing: border-box;
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07px;
+  color: #48555B;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.button_place_form {
+  position: absolute;
+  right: -148px;
+  top: 0;
+}
+
+
